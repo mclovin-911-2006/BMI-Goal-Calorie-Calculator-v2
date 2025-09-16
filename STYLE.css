@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background: #e0f7fa;
+  color: #000;
+}
+
+header {
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  background: #0077cc;
+  color: white;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  overflow-x: auto;
+}
+
+.calculator .container {
+  display: flex;
+  gap: 2rem;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 1500px; 
+  min-height: 500px;
+}
+
+form, #result {
+  flex: 1;
+;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.row {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.row label {
+  flex: 1;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+
+.row input, .row select {
+  padding: 1rem;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.actions button, #back {
+  flex: 1;
+  padding: 1rem;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #0077cc;
+  color: white;
+  transition: background 0.3s ease;
+}
+
+.actions button:hover, #back:hover {
+  background: #005fa3;
+}
+
+#result h2 {
+  font-size: 28px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+#output p {
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
