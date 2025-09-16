@@ -36,26 +36,35 @@ const diets = {
     <p>Strength training 4–5 times a week, progressive overload, compound lifts.</p>
   `,
   lose: `
-    <h3>Weight Loss Diet</h3>
-    <div>
-    <img src="./tsawer/Simple-Green-Salad-with-Vinaigrette-Square-FS-3241.jpg" style="width:200px; height:150px">
-      <p><strong>Meal:</strong> Simple Green Salad<br>
-      <strong>Recipe:</strong> Lettuce, cucumber, tomato, grilled chicken, light dressing<br>
-      <strong>Macros:</strong> 350 kcal, 30g protein, 20g carbs, 10g fat</p>
-    </div>
-    <div>
-    <img src="./tsawer/5544320-04f567e988ce416dadc24ba38716147d.jpg" style="width:200px; height:150px">
-      <strong>Recipe:</strong> Salmon fillet, steamed vegetables, olive oil<br>
-      <strong>Macros:</strong> 400 kcal, 35g protein, 20g carbs, 15g fat</p>
-    </div>
-    <div>
-    <img src="./tsawer/Chicken-Stir-Fry-main-500x500.jpg" style="width:200px; height:150px">
-      <p><strong>Meal:</strong> Chicken Stir Fry<br>
-      <strong>Recipe:</strong> Chicken breast, bell peppers, broccoli, soy sauce<br>
-      <strong>Macros:</strong> 380 kcal, 32g protein, 25g carbs, 12g fat</p>
-    </div>
-    <h3>Exercises</h3>
-    <p>Cardio 3–4 times a week, strength training 2–3 times a week, stay active daily.</p>
+   <h3>Weight Loss Diet</h3>
+
+<div>
+  <img src="./tsawer/Simple-Green-Salad-with-Vinaigrette-Square-FS-3241.jpg" style="width:200px; height:150px">
+  <p><strong>Meal:</strong> Simple Green Salad<br>
+     <strong>Recipe:</strong> Lettuce, cucumber, tomato, grilled chicken, light dressing<br>
+     <strong>Macros:</strong> 350 kcal, 30g protein, 20g carbs, 10g fat
+  </p>
+</div>
+
+<div>
+  <img src="./tsawer/5544320-04f567e988ce416dadc24ba38716147d.jpg" style="width:200px; height:150px">
+  <p><strong>Meal:</strong> Salmon Fillet<br>
+     <strong>Recipe:</strong> Salmon fillet, steamed vegetables, olive oil<br>
+     <strong>Macros:</strong> 400 kcal, 35g protein, 20g carbs, 15g fat
+  </p>
+</div>
+
+<div>
+  <img src="./tsawer/Chicken-Stir-Fry-main-500x500.jpg" style="width:200px; height:150px">
+  <p><strong>Meal:</strong> Chicken Stir Fry<br>
+     <strong>Recipe:</strong> Chicken breast, bell peppers, broccoli, soy sauce<br>
+     <strong>Macros:</strong> 380 kcal, 32g protein, 25g carbs, 12g fat
+  </p>
+</div>
+
+<h3>Exercises</h3>
+<p>Cardio 3–4 times a week, strength training 2–3 times a week, stay active daily.</p>
+
   `,
   maintain: `
     <h3>Maintenance Diet</h3>
@@ -141,3 +150,4 @@ back.addEventListener('click', () => {
   result.hidden = true;
   form.reset();
 });
+
